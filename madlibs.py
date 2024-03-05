@@ -1,5 +1,5 @@
 #declare variables for the inputs
-city = input("City: ")
+city = (input("City: ")).upper
 name = input("Name: ")
 noun = input("Noun: ")
 adjective = input("Adjective: ")
