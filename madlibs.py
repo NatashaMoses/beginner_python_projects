@@ -18,5 +18,6 @@ madlib = f"In the heart of {city} City, {name}, a brilliant programmer, sat hunc
     Eli grinned—the code had come alive! But beware: every bug fixed was a star lost in the digital sky.\
     And so, dear coders, remember: behind every line of code lies a touch of {noun} !"
 
+#display final result
 print(madlib)
 
