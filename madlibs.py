@@ -1,13 +1,13 @@
 #declare variables for the inputs
-city = (input("City: ")).upper
-name = input("Name: ")
-noun = input("Noun: ")
-adjective = input("Adjective: ")
-verb1 = input("Verb in past tense: ")
-verb2 = input("Verb in past tense:")
-furniture = input("Furniture: ")
-algorithm = input("Algorithm: ")
-programming_language = input("Programming language: ")
+city = (input("City: ")).upper()
+name = input("Name: ").upper()
+noun = input("Noun: ").upper()
+adjective = input("Adjective: ").upper()
+verb1 = input("Verb in past tense: ").upper()
+verb2 = input("Verb in past tense:").upper()
+furniture = input("Furniture: ").upper()
+algorithm = input("Algorithm: ").upper()
+programming_language = input("Programming language: ").upper()
 
 #create the madlib sentence
 madlib = f"In the heart of {city} City, {name}, a brilliant programmer, sat hunched over his keyboard.\
