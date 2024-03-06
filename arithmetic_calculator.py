@@ -20,8 +20,9 @@ while True:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
         except:
-            print("invalid input")
+            print("Invalid input")
 
+        #call the Calculator() class
         calc = Calculator()
 
         if operation == 1:
@@ -34,7 +35,7 @@ while True:
             print(f"{num1} / {num2} = {calc.divide(num1, num2)}")
             
     else:
-        print("Invalid Input")            
+        print("Input is not a float")            
     
 
 
