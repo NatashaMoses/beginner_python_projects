@@ -17,21 +17,21 @@ while True:
 
     if operation in (1,2,3,4):
         try:
-            num1 = float(input("Enter first number: "))
-            num2 = float(input("Enter second number: "))
+            num1 = (input("Enter first number: "))
+            num2 = (input("Enter second number: "))
         except:
             print("Invalid input")
 
         #call the Calculator() class
         calc = Calculator()
 
-        if operation == 1:
+        if operation == '1':
             print(f"{num1} + {num2} = {calc.add(num1, num2)}")
-        elif operation == 2:
+        elif operation == '2':
             print(f"{num1} - {num2} = {calc.minus(num1, num2)}")
-        elif operation == 3:
+        elif operation == '3':
             print(f"{num1} * {num2} = {calc.multiply(num1, num2)}")
-        elif operation == 4:
+        elif operation == '4':
             print(f"{num1} / {num2} = {calc.divide(num1, num2)}")
             
     else:
