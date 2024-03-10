@@ -1,3 +1,5 @@
+#this is a code that generates madlibs
+#have fun learning
 #declare variables for the inputs
 city = (input("City: ")).upper()
 name = input("Name: ").upper()
@@ -20,4 +22,3 @@ madlib = f"In the heart of {city} City, {name}, a brilliant programmer, sat hunc
 
 #display final result
 print(madlib)
-
