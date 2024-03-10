@@ -4,3 +4,5 @@ Below is a list of all the repos:
 2. arithmetic_calculator.py
 3. trigonometric_calculator.py
 4. password_generator.py
+Hope you have fun!  
+Don't forget to start it :laugh:
